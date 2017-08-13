@@ -8,12 +8,12 @@ import javax.ws.rs.core.MediaType;
 import org.springframework.stereotype.Component;
 
 @Component
-@Path("/index")
+@Path("/test")
+@Produces({ MediaType.APPLICATION_JSON, MediaType.APPLICATION_ATOM_XML })
 public class Test {
 
 	@GET
-	@Produces({ MediaType.APPLICATION_JSON, MediaType.APPLICATION_ATOM_XML })
-	@Path("/student")
+	@Path("/test")
 	public String getStudent() {
 		return "hello Student!";
 	}

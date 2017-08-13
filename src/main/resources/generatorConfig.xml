@@ -51,7 +51,7 @@
 		
 		<!-- 配置表信息 -->	
 		<table tableName="wechat_user"
-			domainObjectName="wechatUser" enableCountByExample="true"
+			domainObjectName="WechatUser" enableCountByExample="true"
 			enableDeleteByExample="true" enableSelectByExample="true"
 			enableUpdateByExample="true">
 			<!-- schema即为数据库名 tableName为对应的数据库表 domainObjectName是要生成的实体类 enable*ByExample 
